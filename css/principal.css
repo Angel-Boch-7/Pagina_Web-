@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+
+p{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+img {
+    display: block; /* Para que se centre */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; 
+}
+
+h1{    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+h3{
+    color: cornflowerblue;
+    margin: 5%;
+    text-align: left;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Color oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}

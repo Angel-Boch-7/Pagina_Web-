@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    min-height: 103vh; 
+}
+
+p {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+.container {
+    flex: 1; /* Permite que el contenido crezca y empuje el footer hacia abajo */
+}
+
+
+.caja {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mision, .vision {
+    padding: 20px;
+}
+
+h1{    
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    
+}
+
+h2 {
+    color: coral;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+h3 {
+    color: cornflowerblue;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #343a40; /* Color oscuro */
+    color: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    width: 100%;
+}
